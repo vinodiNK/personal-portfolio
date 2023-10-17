@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <style>
+     
+      .col-md-6 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+      }
+
+      
+      .social-icons {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      
+      .social-icons a {
+          margin: 0 10px;
+          animation: bounce-in 1s infinite alternate;
+      }
+
+      
+      @keyframes bounce-in {
+          0% {
+              transform: scale(1);
+          }
+          100% {
+              transform: scale(1.2);
+          }
+      }
+
+     
+      .connect-wm-text {
+          font-size: 30px;
+          animation: slide-in 2s infinite;
+      }
+
+      .img-fluid:hover {
+        transform: scale(1.1); /* Scale the image on hover */
+        transition: transform 0.3s; /* Smooth transition effect */
+      }
+
+ 
+      @keyframes slide-in {
+          0% {
+              transform: translateY(0);
+          }
+          50% {
+              transform: translateY(-10px);
+          }
+          100% {
+              transform: translateY(0);
+          }
+      }
+
+      @media (max-width: 768px) {
+        .connect-wm-text {
+          font-size: 20px; 
+          padding-top: 20px;
+        }
+      }
+  </style>
+    
+  </head>
+  <body class="myBackground">
+    <div class="navigation">
+      <table>
+        <tr>
+          <td>
+            <a href="index.html"
+              ><img src="home.png" alt="Home" width="30"
+            /></a>
+          </td>
+          <td>
+            <a href="javascripts.html"
+              ><img src="javascripts.png" alt="Javascripts" width="30"
+            /></a>
+          </td>
+          <td>
+            <a href="apps.html"><img src="apps.png" alt="Apps" width="30" /></a>
+          </td>
+          <td>
+            <a href="about.html"
+              ><img src="about.png" alt="About Me" width="30"
+            /></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="row">
+      <div class="col-md-3 d-flex justify-content-center align-items-flex-start">
+        <div class="image-container">
+          <img class="img-vinodi" src="vinodi.png" alt="Your Name" />
+        </div>
+      </div>
+      <div class="col-md-9">
+        <h1 class="main-heading" style="animation: slide-in 2s infinite;">Who am I?</h1>
+        <p class="page-description">
+          I'm Vinodi Nikeshani Kasthuri, a dedicated second-year undergraduate
+          at General Sir John Kotelawala Defence University, passionate about
+          Information Technology.
+        </p>
+        <p class="page-description">
+          Currently pursuing my degree in Information Technology, I am committed
+          to honing my skills and knowledge in this dynamic field.My academic
+          journey is complemented by my enthusiasm for staying up-to-date with
+          the latest IT trends and technologies. I thrive on challenges and
+          believe that continuous learning is the key to success in today's
+          tech-driven world.
+        </p>
+        <img src="group.jpeg" alt="" class="img-group img-fluid">
+        <div class="row" style="padding: 20px;">
+          <div class="col-md-6">
+            <div>
+              <img src="vinodi2.jpeg" alt="" class="img-fluid" style="padding-left: 70px; padding-right: 70px; padding-top: 20px;">
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div>
+              <div class="social-media">
+                <h3 class="connect-wm-text">C o n n e c t w i t h m e:</h2>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/vinodi.nikeshani" target="_blank">
+                    <img src="facebook.png" alt="Facebook" width="30" />
+                  </a>
+                  <a href="https://twitter.com/vinodinikeshani" target="_blank">
+                    <img src="twitter.png" alt="Twitter" width="30" />
+                  </a>
+                  <a href="https://www.instagram.com/vinodi_nikeshani" target="_blank">
+                    <img src="instagram.png" alt="Instagram" width="30" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/vinodi-nikeshani-74557928b/" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn" width="30" />
+                  </a>
+                  <a href="https://github.com/VinodiNikeshaniKasthuri" target="_blank">
+                    <img src="github.png" alt="GitHub" width="30" />
+                  </a>
+              </div>
+          </div>
+         
+        </div>
+        </div>
+      </div>
+    </div>
+ 
+    </div>
+  </body>
+</html>
