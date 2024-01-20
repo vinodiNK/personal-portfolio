@@ -9,4 +9,4 @@
 
 # This is About me Page.
 
-## 🤝 Thank you for watching my assignment portfolio
+## 🤝 Thank you for watching my assignment portfolio.
